@@ -1,0 +1,28 @@
+{
+  "name": "closeout-promo-demo-master-d6ffc436ad09fb0fa21fd0ee7e581693276304a3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "btoa": "^1.1.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.2",
+    "mongoose": "^4.9.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "rethinkdb": "^2.3.3",
+    "rethinkdb-job-queue": "^3.1.1",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
