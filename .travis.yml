@@ -15,7 +15,7 @@ docker login -u="9099" -p="123456"
 
 script:
   - docker pull 9099/closeout_promo
-  - docker run -d 8093:3001 9099/closeout_promo
+  - docker run -p 8093:3001 9099/closeout_promo
   - docker ps -a
   - docker run 9099/closeout_promo
 
