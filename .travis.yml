@@ -9,8 +9,9 @@ before_install:
   - sudo apt-get update
   - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-engine
   
-  
-
+travis env set DOCKER_USERNAME 9099
+travis env set DOCKER_PASSWORD 123456
+docker login -u="9099" -p="123456"
 
 script:
   - docker pull 9099/closeout_promo
